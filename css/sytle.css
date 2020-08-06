@@ -4,25 +4,63 @@ body {
 }
 
 .header {
-  border: red solid 2px;
+  background-color: gray;
   box-sizing: border-box;
   width: 100%;
-  height: 70px;
+  height: 80px;
   padding: 0.5em;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .header__img {
-  height: 100%;
-  margin-left: 2em;
+  display: flex;
 }
-button {
-  color: #fff !important;
-  border: 0 !important;
-  background-color: #029dea;
-  border-radius: 4px;
-  padding: 1em 1.5em;
-  margin-right: 2em;
-  font-family: "Montserrat", sans-serif;
+.header__img img {
+  height: 70px;
+  margin-left: 2em;
+  align-self: center;
+}
+.header__img h2 {
+  /*   align-self: center; */
+  margin-left: -10px;
+}
+.header__menu {
+  margin-right: 40px;
+}
+.header__menu ul {
+  display: none;
+  list-style: none;
+  padding: 40px 0px 0px 0px;
+  position: absolute;
+  width: 120px;
+  text-align: right;
+  margin: 0px 0px 0px -14px;
+}
+.header__menu:hover ul,
+ul:hover {
+  display: block;
+}
+.header__menu li {
+  margin: 10px 0;
+}
+.header__menu li a {
+  color: black;
+  text-decoration: none;
+}
+.header__menu li a:hover {
+  text-decoration: underline;
+}
+.header__menu--profile {
+  /*   margin-right: 8px;
+  width: 40px; */
+  display: flex;
+}
+.main {
+  height: 300px;
+}
+.main_title {
+}
+.inputsForm {
+  width: 40%;
 }
