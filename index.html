@@ -1,196 +1,43 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Design system</title>
+    <link rel="stylesheet" href="css/sytle.css" />
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="icon" type="image/png" href="logoC.png" />
-    <!--<link rel="shortcut icon" href="logoC.png" type="image/x-icon">-->
+    <link rel="icon" type="imagen/png" href="image/favicon.ico" />
+    <title>Recortador URL</title>
   </head>
   <body>
-    <!-- colors -->
-    <section>
-      <h2 class="title_blue">Colors</h2>
-      <div class="section_colors">
-        <div class="color_main circle"></div>
-        <div class="color_secundary circle"></div>
-        <div class="color_auxiliar1 circle"></div>
-        <div class="color_auxiliar2 circle"></div>
-        <div class="color_black circle"></div>
+    <header class="header">
+      <div class="header__img">
+        <img class="" src="image/logoC.png" alt="" />
+        <h2>d0</h2>
       </div>
-    </section>
-    <!-- text -->
-    <section>
-      <h2 class="title_blue">Títulos</h2>
-      <h1>H1 Titles: principal</h1>
-      <h2>H2 Titles: secundario</h2>
-      <h3>H3 Titles: subtitulos</h3>
-      <h4>H4 Titles</h4>
-      <h5>H5 Titles</h5>
-      <h6>H6 Titles</h6>
-      <p>
-        Texto: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-        consectetur, adipisci velit.
+      <div class="header__menu">
+        <div class="header__menu--profile">
+          <img src="image/icons8-usuario-de-género-neutro-50.png" alt="User" />
+          <p>Perfil</p>
+          <ul>
+            <li><a href="/">Cuenta</a></li>
+            <li><a href="/">Cerrar Sesión</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="main">
+      <h2 class="main__title">Acortador de URL, acortador de enlaces</h2>
+      <p class="main__description">
+        Simplifique sus enlaces y haga un seguimiento de las estadísticas
+        avanzadas de clics
       </p>
-      <br /><br />
-    </section>
-    <!-- labels -->
-    <section class="label">
-      <h2 class="title_blue">Labels</h2>
-      <label for="" class="label">ssss</label>
-      <label for="" class="label label_background">ssss</label>
-      <label for="" class="label label_background_icon before">ssss</label>
-      <label for="" class="label label_background_icon after">ssss</label>
-    </section>
-    <!-- buttons -->
-    <p></p>
-    <section>
-      <h2 class="title_blue">Buttons</h2>
-      <button class="btn">Botón principal</button>
-      <button class="btn btn_line">Bóton secundario</button>
-      <button class="btn btn_outlined">Boton terceario</button>
-    </section>
-    <!-- inputs -->
-    <section>
-      <h2 class="title_blue">Inputs</h2>
       <input
-        type="text"
-        name=""
-        id="inputs"
-        placeholder="Label"
         class="inputsForm"
-      />
-      <input
         type="text"
-        name=""
-        id="inputs"
-        class="inputsForm wrong"
-        placeholder="Wrong"
+        placeholder="Pega la url larga y acortarla"
       />
-      <input type="text" class="inputsForm correct" placeholder="Correct" />
-      <p></p>
-      <div class="radio_button">
-        <input type="radio" name="num" id="op1" />
-        <label for="op1">label</label>
-        <input type="radio" name="num" id="op2" />
-        <label for="op2">label</label>
-      </div>
+      <button class="btn">acortar</button>
     </section>
-    <p></p>
-    <!-- text area -->
-    <textarea name="" id="" cols="30" rows="10"></textarea>
-    <p></p>
-    <!-- date -->
-    <div class="">
-      <input type="date" name="" id="" class="dateinp" />
-    </div>
-    <!-- select -->
-    <p></p>
-    <div class="" style="width: 200px;">
-      <select>
-        <option value="0">Options:</option>
-        <option value="1">Option 1</option>
-        <option value="2">Option 2</option>
-        <option value="3">Option 3</option>
-        <option value="4">Option 4</option>
-      </select>
-    </div>
-    <p></p>
-    <!-- table -->
-    <div class="table">
-      <div class="tbl-header">
-        <table cellpadding="0" cellspacing="0" border="0">
-          <thead>
-            <tr>
-              <th>Code</th>
-              <th>Company</th>
-              <th>Price</th>
-            </tr>
-          </thead>
-        </table>
-      </div>
-      <div class="tbl-content">
-        <table cellpadding="0" cellspacing="0" border="0">
-          <tbody>
-            <tr>
-              <td>AAC</td>
-              <td>AUSTRALIAN</td>
-              <td>$1.38</td>
-            </tr>
-            <tr>
-              <td>AAD</td>
-              <td>AUSENCO</td>
-              <td>AUSENCO</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <!-- images profile -->
-    <section>
-      <h2 class="title_blue">images profile</h2>
-      <figure>
-        <img
-          src="https://scontent.fbog3-1.fna.fbcdn.net/v/t1.0-9/15541327_10154159712433806_5445565299060541725_n.jpg?_nc_cat=103&_nc_sid=85a577&_nc_ohc=sAv54nCU2gMAX_f5UCa&_nc_ht=scontent.fbog3-1.fna&oh=391cc21ef683680a1529f1c30c547d2d&oe=5EA094C6"
-          alt=""
-          class="img_profile_small"
-        />
-      </figure>
-      <figure>
-        <img
-          src="https://scontent.fbog3-1.fna.fbcdn.net/v/t1.0-9/15541327_10154159712433806_5445565299060541725_n.jpg?_nc_cat=103&_nc_sid=85a577&_nc_ohc=sAv54nCU2gMAX_f5UCa&_nc_ht=scontent.fbog3-1.fna&oh=391cc21ef683680a1529f1c30c547d2d&oe=5EA094C6"
-          alt=""
-          class="img_profile_medium"
-        />
-      </figure>
-      <figure>
-        <img
-          src="https://scontent.fbog3-1.fna.fbcdn.net/v/t1.0-9/15541327_10154159712433806_5445565299060541725_n.jpg?_nc_cat=103&_nc_sid=85a577&_nc_ohc=sAv54nCU2gMAX_f5UCa&_nc_ht=scontent.fbog3-1.fna&oh=391cc21ef683680a1529f1c30c547d2d&oe=5EA094C6"
-          alt=""
-          class="img_profile_big"
-        />
-      </figure>
-    </section>
-    <!-- moleculas -->
-    <div class="moleculas">
-      <h1 class="title_blue">Moleculas</h1>
-      <section>
-        <label for="radio_button" class="label label_radio container"
-          >Label
-          <input type="text" name="" id="inputs" class="inputsForm" />
-          <span class="checkmark"></span>
-        </label>
-        <p></p>
-        <div class="prfile-name">
-          <figure>
-            <img
-              src="https://scontent.fbog3-1.fna.fbcdn.net/v/t1.0-9/15541327_10154159712433806_5445565299060541725_n.jpg?_nc_cat=103&_nc_sid=85a577&_nc_ohc=sAv54nCU2gMAX_f5UCa&_nc_ht=scontent.fbog3-1.fna&oh=391cc21ef683680a1529f1c30c547d2d&oe=5EA094C6"
-              alt=""
-              class="img_profile_small"
-            />
-          </figure>
-          <h5>Pedro Caicedo</h5>
-        </div>
-      </section>
-    </div>
-    <!-- organismos -->
-    <section>
-      <h2 class="title_blue">Organismos</h2>
-      <div class="card">
-        <figure class="wrap_card">
-          <img
-            src="https://cursodeventas.net/wp-content/uploads/2018/02/Como-presentar-un-producto.jpg"
-            alt=""
-            class="img_card"
-          />
-        </figure>
-        <div class="info_card">
-          <p class="title_card">Title</p>
-          <p class="description_card">Description product</p>
-          <button class="btn">Botón principal</button>
-        </div>
-      </div>
-    </section>
+    <footer></footer>
   </body>
 </html>
