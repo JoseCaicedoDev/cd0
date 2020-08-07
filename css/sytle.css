@@ -1,10 +1,12 @@
 html,
 body {
   margin: 0px;
+  background-color: rgb(200, 200, 200);
+  width: 100%;
 }
 
 .header {
-  background-color: gray;
+  background-color: rgb(200, 200, 200);
   box-sizing: border-box;
   width: 100%;
   height: 80px;
@@ -17,7 +19,7 @@ body {
   display: flex;
 }
 .header__img img {
-  height: 70px;
+  height: 55px;
   margin-left: 2em;
   align-self: center;
 }
@@ -57,10 +59,91 @@ ul:hover {
   display: flex;
 }
 .main {
+  background-color: rgba(255, 0, 0, 0.219);
   height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.main_title {
+.main__title {
+  margin: 0px;
+}
+.main__description {
+  margin: 4px 0 35px;
+  font-size: 1.3em;
+}
+.main div {
+  width: 80%;
+  display: flex;
+  justify-content: center;
 }
 .inputsForm {
-  width: 40%;
+  width: 60%;
+  height: 40px;
+}
+
+.curt {
+  background-color: rgba(112, 173, 41, 0.219);
+  height: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.ads {
+  background-color: rgba(128, 126, 0, 0.397);
+  width: 728px;
+  height: 90px;
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.result {
+  background-color: rgba(0, 128, 0, 0.301);
+  border: 1px solid black;
+  padding: 20px;
+}
+.result a {
+  color: gray;
+  text-decoration: none;
+}
+.result a:hover {
+  color: blue;
+}
+.result__date {
+  border: 1px solid blue;
+  width: 20%;
+  text-align: center;
+  padding: 0.2em;
+  margin: 0;
+}
+.result__copy {
+  display: flex;
+}
+.result__copy a {
+  color: red;
+  text-decoration: none;
+}
+.result__copy a:hover {
+  color: red;
+  text-decoration: underline;
+}
+.result__copy button {
+  margin: 0 0 0 20px;
+}
+footer {
+  background-color: rgba(94, 92, 205, 0.288);
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.finished a {
+  margin: 10px;
+}
+.copywrite p {
+  margin: 0 20px 0 40px;
+  display: flex;
+  align-items: center;
 }
