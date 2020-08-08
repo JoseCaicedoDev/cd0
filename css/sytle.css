@@ -1,16 +1,22 @@
-html,
+html {
+  min-height: 100%;
+  position: relative;
+}
 body {
-  margin: 0px;
-  background-color: rgb(200, 200, 200);
-  width: 100%;
+  background-color: rgba(200, 200, 200, 0.116);
+  margin: 0 auto;
 }
 
 .header {
-  background-color: rgb(200, 200, 200);
-  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 80px;
-  padding: 0.5em;
+  border-bottom: 1px solid gray;
+}
+.header__flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,7 +30,7 @@ body {
   align-self: center;
 }
 .header__img h2 {
-  /*   align-self: center; */
+  align-self: center;
   margin-left: -10px;
 }
 .header__menu {
@@ -54,12 +60,11 @@ ul:hover {
   text-decoration: underline;
 }
 .header__menu--profile {
-  /*   margin-right: 8px;
-  width: 40px; */
   display: flex;
 }
+
 .main {
-  background-color: rgba(255, 0, 0, 0.219);
+  /*   background-color: rgba(255, 0, 0, 0.219); */
   height: 300px;
   display: flex;
   align-items: center;
@@ -74,33 +79,38 @@ ul:hover {
   font-size: 1.3em;
 }
 .main div {
-  width: 80%;
   display: flex;
   justify-content: center;
 }
+.input {
+  width: 80%;
+}
 .inputsForm {
-  width: 60%;
+  width: 90%;
   height: 40px;
+  outline: none;
 }
 
 .curt {
-  background-color: rgba(112, 173, 41, 0.219);
+  /*   background-color: rgba(112, 173, 41, 0.219); */
   height: 400px;
+  width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 .ads {
   background-color: rgba(128, 126, 0, 0.397);
-  width: 728px;
   height: 90px;
-  margin: 30px;
+  width: 50%;
+  margin: 20px 0 60px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .result {
-  background-color: rgba(0, 128, 0, 0.301);
+  /*   background-color: rgba(0, 128, 0, 0.301); */
   border: 1px solid black;
   padding: 20px;
 }
@@ -113,10 +123,10 @@ ul:hover {
 }
 .result__date {
   border: 1px solid blue;
-  width: 20%;
   text-align: center;
   padding: 0.2em;
   margin: 0;
+  width: 20%;
 }
 .result__copy {
   display: flex;
@@ -132,18 +142,40 @@ ul:hover {
 .result__copy button {
   margin: 0 0 0 20px;
 }
+
 footer {
-  background-color: rgba(94, 92, 205, 0.288);
+  background-color: rgba(0, 0, 0, 0.288);
   height: 40px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 .finished a {
   margin: 10px;
+  text-decoration: none;
+  color: black;
+}
+.finished a:hover {
+  text-decoration: underline;
 }
 .copywrite p {
   margin: 0 20px 0 40px;
   display: flex;
   align-items: center;
+}
+.copywrite img {
+  margin: 0 0 0 2px;
+}
+.container {
+  /*   border: 1px solid red; */
+  width: 1440px;
+  margin: 0 auto;
+  height: inherit;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+  flex-direction: inherit;
 }

@@ -5,74 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/sytle.css" />
+    <link rel="stylesheet" href="css/media.css" />
     <link rel="icon" type="imagen/png" href="image/favicon.ico" />
     <title>Recortador URL</title>
   </head>
   <body>
     <header class="header">
-      <div class="header__img">
-        <img class="" src="image/logoC.png" alt="" />
-        <h2>d0</h2>
-      </div>
-      <div class="header__menu">
-        <div class="header__menu--profile">
-          <img src="image/icons8-usuario-de-género-neutro-50.png" alt="User" />
-          <p>Perfil</p>
-          <ul>
-            <li><a href="/">Cuenta</a></li>
-            <li><a href="/">Cerrar Sesión</a></li>
-          </ul>
+      <div class="container">
+        <div class="header__img">
+          <img class="" src="image/logoC.png" alt="" />
+          <h2>d0</h2>
+        </div>
+        <div class="header__menu">
+          <div class="header__menu--profile">
+            <img
+              src="image/icons8-usuario-de-género-neutro-50.png"
+              alt="User"
+            />
+            <p>Perfil</p>
+            <ul>
+              <li><a href="/">Cuenta</a></li>
+              <li><a href="/">Cerrar Sesión</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
+
     <!-- Cortador -->
     <section class="main">
-      <h2 class="main__title">Acortador de URL, acortador de enlaces</h2>
-      <p class="main__description">
-        Simplifique sus enlaces y haga un seguimiento de las estadísticas
-        avanzadas de clics
-      </p>
-      <div>
-        <input
-          class="inputsForm"
-          type="text"
-          placeholder="Pega la url larga y acortarla"
-        />
-        <button class="btn">acortar</button>
-      </div>
-    </section>
-    <!-- area de cortado -->
-    <section class="curt">
-      <div class="ads">
-        <p>Espacio Publicitario</p>
-      </div>
-      <div class="result">
-        <p class="result__date">2020-08-05</p>
-        <p>
-          CampoAmbiente - Revista, Agricultura, Zootecnia, Ambiente y Tecnologia
+      <div class="container">
+        <h2 class="main__title">Acortador de URL, acortador de enlaces</h2>
+        <p class="main__description">
+          Simplifique sus enlaces y haga un seguimiento de las estadísticas
+          avanzadas de clics
         </p>
-        <p><a href="">https://campoambiente.com/</a></p>
-        <div class="result__copy">
-          <p><a href="">https://cutt.ly/OdYH2SD</a></p>
-          <button class="btn">Copiar</button>
-          <button class="btn btn_line">Cambiar url</button>
-          <button class="btn btn_line">código qr</button>
+        <div class="input">
+          <input
+            class="inputsForm"
+            type="text"
+            placeholder="Pega la url larga y acortarla"
+          />
+          <button class="btn">acortar</button>
         </div>
       </div>
     </section>
-    <footer>
-      <div class="finished">
-        <a href="">Términos de uso</a>
-        <a href="">Privacidad</a>
-        <a href="">Centro de ayuda</a>
+
+    <!-- area de cortado -->
+    <section class="curt">
+      <div class="container">
+        <div class="ads">
+          <p>Espacio Publicitario</p>
+        </div>
+        <div class="result">
+          <p class="result__date">2020-08-05</p>
+          <p>
+            CampoAmbiente - Revista, Agricultura, Zootecnia, Ambiente y
+            Tecnologia
+          </p>
+          <p><a href="">https://campoambiente.com/</a></p>
+          <div class="result__copy">
+            <p><a href="">https://cutt.ly/OdYH2SD</a></p>
+            <button class="btn">Copiar</button>
+            <button class="btn btn_line">Cambiar url</button>
+            <button class="btn btn_line">código qr</button>
+          </div>
+        </div>
       </div>
-      <div class="copywrite">
-        <p>
-          By
-          <a href="http://jose.caicedo.la/" target="_blank"
-            ><img src="image/JC_negro.png" style="width: 22px;"
-          /></a>
-        </p>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="finished">
+          <a href="">Términos de uso</a>
+          <a href="">Privacidad</a>
+          <a href="">Centro de ayuda</a>
+        </div>
+        <div class="copywrite">
+          <p>
+            By
+            <a href="http://jose.caicedo.la/" target="_blank"
+              ><img src="image/JC_negro.png" style="width: 22px;"
+            /></a>
+          </p>
+        </div>
       </div>
     </footer>
   </body>
