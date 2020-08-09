@@ -157,7 +157,10 @@ footer {
   align-items: center;
 }
 .version {
-  margin-left: 20px;
+  margin: 0 0 0 20px;
+}
+.version p {
+  margin: 0px;
 }
 .finished a {
   margin: 10px;
