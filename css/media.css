@@ -62,25 +62,89 @@
     display: block;
     text-align: center;
     margin-bottom: 0.5em;
-}
   }
-  .container {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 480px) {
-  .container {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 768px) {
   .container {
     width: 100%;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 480px) {
+  .header__img img {
+    margin-left: 1em;
+  }
+  .header__menu {
+    margin-right: 1em;
+  }
+  h2 {
+    font-size: 2em;
+    text-align: center;
+  }
+  .main__description {
+    font-size: 1.2em;
+    margin: 1.2em 0;
+    text-align: center;
+  }
+  .input {
+    margin-top: 1em;
+    width: 95%;
+  }
+  .inputsForm {
+    height: 1.6em;
+  }
+  .curt {
+    margin: 0 auto;
+    height: 600px;
+  }
+  .ads {
+    width: 80%;
+    margin: 0 0 3em;
+  }
+  .result {
+    width: 89.3%;
+    margin: 0 0.5em 2em;
+    padding: 0.8em;
+    text-align: center;
+  }
+  .result__date {
+    width: 50%;
+  }
+  .result__copy {
+    display: flex;
+    flex-direction: column;
+  }
+  .result__copy button {
+    margin: 0.5em 0;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
   .container {
     width: 100%;
   }
+}
+@media screen and (max-width: 768px) {
+  /*   .container {
+    width: 100%;
+  } */
+  /*   h2 {
+    font-size: 2em;
+    text-align: center;
+  }
+  .main__title {
+    margin: 1em 0;
+  }
+  .main__description {
+    text-align: center;
+  }
+  .inputsForm {
+    width: 100%;
+    height: 30px;
+  } */
+}
+
+@media screen and (max-width: 1024px) {
+  /*   .container {
+    width: 100%;
+  } */
 }
