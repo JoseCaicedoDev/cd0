@@ -83,7 +83,7 @@ ul:hover {
   justify-content: center;
 }
 .input {
-  width: 80%;
+  width: 70%;
 }
 .inputsForm {
   width: 90%;
@@ -151,8 +151,13 @@ footer {
   width: 100%;
   bottom: 0;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  /* 
+  justify-content: flex-end; */
   align-items: center;
+}
+.version {
+  margin-left: 20px;
 }
 .finished a {
   margin: 10px;
