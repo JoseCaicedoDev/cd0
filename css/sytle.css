@@ -14,7 +14,7 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
 }
 .header__flex {
   display: flex;
@@ -101,7 +101,7 @@ ul:hover {
   flex-direction: column;
 }
 .ads {
-  background-color: rgba(128, 126, 0, 0.397);
+  background-color: #ecbd3e;
   height: 90px;
   width: 50%;
   margin: 20px 0 60px;
@@ -145,6 +145,7 @@ ul:hover {
 
 footer {
   background-color: rgba(0, 0, 0, 0.288);
+  border-top: 1px solid rgba(128, 128, 128, 0.5);
   height: 40px;
   position: absolute;
   width: 100%;
