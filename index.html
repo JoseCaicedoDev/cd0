@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-175179557-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-175179557-1");
+    </script>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
@@ -63,7 +78,22 @@
     <section class="ads">
       <div class="container">
         <div class="ads_public">
-          <p>Espacio Publicitario</p>
+          <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+          ></script>
+          <!-- Public -->
+          <ins
+            class="adsbygoogle"
+            style="display: block;"
+            data-ad-client="ca-pub-2084827919548493"
+            data-ad-slot="6072766448"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
         </div>
       </div>
     </section>
@@ -78,8 +108,13 @@
           </p>
           <p class="result_url"><a href="">https://campoambiente.com/</a></p>
           <div class="result__copy">
-            <p><a href="">https://cutt.ly/OdYH2SD</a></p>
-            <button class="btn btn_line">Copiar</button>
+            <p><a id="copyUrl" href="">https://cutt.ly/OdYH2SD</a></p>
+            <button
+              onclick="copiarAlPortapapeles('copyUrl')"
+              class="btn btn_line"
+            >
+              Copiar
+            </button>
             <button class="btn btn_line">Cambiar url</button>
             <button class="btn btn_line">código qr</button>
           </div>
@@ -105,5 +140,15 @@
         </div>
       </div>
     </footer>
+    <script>
+      function copiarAlPortapapeles(copyUrl) {
+        var aux = document.createElement("input");
+        aux.setAttribute("value", document.getElementById(copyUrl).innerHTML);
+        document.body.appendChild(aux);
+        aux.select();
+        document.execCommand("copy");
+        document.body.removeChild(aux);
+      }
+    </script>
   </body>
 </html>

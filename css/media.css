@@ -15,7 +15,7 @@
     height: 3rem;
   }
   .ads_public {
-    margin: 0 1.5rem 2rem;
+    margin: 0 0 2rem;
     height: 70px;
   }
   .result__content {
@@ -67,7 +67,7 @@
     justify-content: center;
   }
   .ads_public {
-    margin: 0 1.5rem 2rem;
+    margin: 0 0 2rem;
     height: 70px;
     width: 750px;
   }
