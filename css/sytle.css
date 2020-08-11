@@ -127,18 +127,18 @@ footer {
   justify-content: space-between;
   align-items: center;
   font-size: 0.9rem;
-  margin: 0.2rem 0.5rem;
+  padding: 0.2rem 0.5rem;
 }
 .finished {
   text-align: center;
   margin: 0.2rem 0;
   width: 15rem;
-  /*   font-size: 0.9rem; */
 }
 .finished a {
   text-decoration: none;
   color: black;
-  margin: 0 2rem;
+  /*   margin: 0.2rem 2rem; */
+  padding: 0.2rem 2rem;
 }
 .finished a:hover {
   text-decoration: underline;
@@ -149,6 +149,5 @@ footer {
   align-items: inherit;
   justify-content: inherit;
   margin: 0 auto;
-  min-width: inherit;
   width: 100%;
 }
