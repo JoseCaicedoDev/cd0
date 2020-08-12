@@ -58,13 +58,9 @@ body {
   width: 70%;
   height: 2.5rem;
 }
-
-.ads_public {
-  background-color: #ecbd3e;
-  padding: 1rem;
-  margin: 0 0 1rem;
-  text-align: center;
-  height: 60px;
+.ads {
+  display: flex;
+  justify-content: center;
 }
 
 .result {
