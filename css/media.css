@@ -22,6 +22,9 @@
     margin: 0.8rem;
     padding: 0.5rem;
   }
+  .result__content--legal {
+    margin: 0.8rem;
+  }
   .resul__title {
     font-size: 1rem;
     padding: 0.7rem 0;
@@ -80,6 +83,10 @@
   .result__content {
     margin: 1.5rem;
     padding: 0.8rem;
+    width: 750px;
+  }
+  .result__content--legal {
+    margin: 1.5rem;
     width: 750px;
   }
   .resul__title {
@@ -156,6 +163,10 @@
   .result__content {
     margin: 1.5rem;
     padding: 0.8rem;
+    width: 750px;
+  }
+  .result__content--legal {
+    margin: 1.5rem;
     width: 750px;
   }
   .resul__title {

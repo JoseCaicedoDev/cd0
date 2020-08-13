@@ -71,6 +71,12 @@ body {
   margin: 1rem;
   padding: 0.5rem;
 }
+.result__content--legal {
+  margin: 1rem;
+}
+.result__content--legal p {
+  text-align: justify;
+}
 .result__date {
   border: 1px solid blue;
   width: 7rem;
