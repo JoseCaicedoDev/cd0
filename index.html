@@ -1,157 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-175179557-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "UA-175179557-1");
-    </script>
-
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/sytle.css" />
-    <link rel="stylesheet" href="css/media.css" />
-    <link rel="icon" type="imagen/png" href="image/favicon.ico" />
-    <title>Cd0 | Acortador de URL, acortador de enlaces</title>
-    <meta
-      name="description"
-      content="Acortamiento de URL y enlaces. Acorte y reemplace la URL larga con un enlace corto para programas de afiliados, anuncios, sitios web sociales, correos electrónicos, mensajes de texto."
-    />
-    <meta
-      name="Keywords"
-      content="acortador de enlaces, acortador de URL, URL libre, acortamiento de enlaces libres, bitly, tinyurl, acortador de enlaces, url pequeño, url corto, enlace corto, acortamiento de enlaces, acortador de url libre, URL de acortamiento, acorta la URL, acortar enlaces, url, enlace, redirección url, enlace más corto, acortador de URL sin anuncios"
-    />
-    <meta property="og:url" content="https://cd0.co" />
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:title"
-      content="Cd0 | Acortador de URL, acortador de enlaces"
-    />
-    <meta
-      property="og:description"
-      content="Acortamiento de URL y enlaces. Acorte y reemplace la URL larga con un enlace corto para programas de afiliados, anuncios, sitios web sociales, correos electrónicos, mensajes de texto."
-    />
-    <meta property="og:image" content="https://cd0.co/image/logoC.png" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>cd0 | Acortador de URL</title>
   </head>
   <body>
-    <!-- Cabecer del sitio -->
-    <header class="header">
-      <div class="container">
-        <div class="header__logo">
-          <img src="image/logoC.png" alt="logo cd0" />
-          <h2>d0</h2>
-        </div>
-        <div class="header__button">
-          <button
-            class="btn btn_line"
-            onclick="location.href='https://www.paypal.com/paypalme/cd0team/5'"
-            type="button"
-          >
-            Apóyanos
-          </button>
-        </div>
+    <!-- Inicio del navbar -->
+    <nav>
+      <div class="brand_image">
+        <img src="image/logoC.png" alt="" />
+        <h2>d0</h2>
       </div>
-    </header>
-    <!-- Acortador de URL -->
-    <section class="main">
-      <div class="container">
-        <h2 class="main__title">Acortador de URL, acortador de enlaces</h2>
-        <p class="main__description">
+      <div class="nav_donate">
+        <button class="btn_line">Apóyanos</button>
+      </div>
+    </nav>
+
+    <!-- encabezado y contenido -->
+    <main>
+      <section class="content_title">
+        <h2>Acortador de URL, acortador de enlaces</h2>
+        <h4>
           Simplifique sus enlaces y haga un seguimiento de las estadísticas
           avanzadas de clics
-        </p>
-        <div class="input">
+        </h4>
+      </section>
+
+      <section class="copyUrl">
+        <form class="url__acortador">
           <input
             class="inputsForm"
             type="text"
-            placeholder="Pega la url larga y acortarla"
-            required
+            placeholder="Pega la url larga y acortala"
           />
           <button class="btn">acortar</button>
-        </div>
+        </form>
+        <p class="copyUrl_error">*Enlace incorrecto</p>
+        <p class="copyUrl_services">
+          Al usar nuestro servicio, acepta los
+          <a href="#">Términos de uso</a> y la
+          <a href="#">Política de privacidad</a>.
+        </p>
+      </section>
+      <section class="ads">
+        <span>Publicidad</span>
+      </section>
+    </main>
+    <section class="shortener">
+      <div class="shortener__info">
+        <p class="shortener__info-date">2020-09-14</p>
+        <p class="shortener__info-click">click 0</p>
+      </div>
+      <div class="shortener__description">
+        <p>Hola.com</p>
+        <a href="#">https://hola .com</a>
+      </div>
+      <div class="shortener__url">
+        <a href="#">https://cd0.co/zonsygi</a>
+        <button class="btn_line">Copiar</button>
+        <button class="btn_line">Cambiar</button>
       </div>
     </section>
-    <!-- Espacio Publicitario -->
-    <section class="ads">
-      <div class="container">
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-        ></script>
-        <!-- Publicidad_Cd0 -->
-        <ins
-          class="adsbygoogle"
-          style="display: inline-block; width: 320px; height: 50px;"
-          data-ad-client="ca-pub-2084827919548493"
-          data-ad-slot="1784955505"
-        ></ins>
-        <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
-    </section>
-    <!-- Resultado de recortador -->
-    <section class="result">
-      <div class="container">
-        <div class="result__content">
-          <p class="result__date">2020-08-05</p>
-          <p class="resul__title">
-            CampoAmbiente - Revista, Agricultura, Zootecnia, Ambiente y
-            Tecnologia
-          </p>
-          <p class="result_url"><a href="">https://campoambiente.com/</a></p>
-          <div class="result__copy">
-            <p><a id="copyUrl" href="">https://cutt.ly/OdYH2SD</a></p>
-            <button
-              onclick="copiarAlPortapapeles('copyUrl')"
-              class="btn btn_line"
-            >
-              Copiar
-            </button>
-            <button class="btn btn_line">Cambiar url</button>
-            <button class="btn btn_line">código qr</button>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <footer>
-      <div class="container">
-        <div class="copywrite">
-          <p>V 1.0.0</p>
-          <div class="finished">
-            <a href="termino.html" target="_blank">Términos de uso</a>
-            <a href="privacidad.html" target="_blank">Privacidad</a>
-            <!--           <a href="">Centro de ayuda</a> -->
-          </div>
-          <p>
-            By
-            <a href="http://jose.caicedo.la/" target="_blank"
-              ><img src="image/JC_negro.png" style="width: 22px;"
-            /></a>
-          </p>
+      <div class="footer__info">
+        <a href="#">Términos de uso</a>
+        <a href="#">Privacidad</a>
+        <a href="#">Reporte de abuso</a>
+      </div>
+      <div class="footer__copy">
+        <p>v 1.0.0</p>
+        <div class="footer__copy-by">
+          <p>By</p>
+          <a href="https://www.linkedin.com/in/jose-caicedo/"
+            ><img src="image/JC_negro.png" alt="logo del desarrollador"
+          /></a>
         </div>
       </div>
     </footer>
-    <script>
-      function copiarAlPortapapeles(copyUrl) {
-        var aux = document.createElement("input");
-        aux.setAttribute("value", document.getElementById(copyUrl).innerHTML);
-        document.body.appendChild(aux);
-        aux.select();
-        document.execCommand("copy");
-        document.body.removeChild(aux);
-      }
-    </script>
   </body>
 </html>
