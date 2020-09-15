@@ -55,6 +55,12 @@ main {
 }
 .content_title h4 {
   margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+.content_description p {
+  font-size: 1.5rem;
+  text-align: justify;
+  padding: 2rem 2rem;
 }
 
 .copyUrl {
@@ -154,11 +160,53 @@ form {
 .shortener__url a:hover {
   color: blue;
 }
-.shortener__url button {
+.shortener__url input {
   margin: 0.5rem auto;
   width: 20rem;
 }
 
+/* change */
+.changeDescription {
+  padding: 0 1.5rem;
+  margin: 1rem 0;
+}
+.changeDescription p,
+.changeDescription b,
+.changeDescription a,
+.changeDescription span {
+  font-size: 1.6rem;
+}
+.changeDescription h4 {
+  font-weight: bold;
+  text-align: center;
+}
+.changeDescription p {
+  text-align: center;
+}
+.changeDescription a {
+  color: var(--color-error);
+}
+
+/* report */
+.reportUrl {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.url__report .inputsForm {
+  width: 80%;
+}
+.option {
+  padding-left: 3rem;
+}
+form label {
+  font-size: 1.6rem;
+  padding: 0.5rem 0;
+}
+.option__btn {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  margin-top: 1rem;
+}
 /* footer */
 
 .footer__info {

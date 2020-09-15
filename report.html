@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/sytle.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>cd0 | Acortador de URL</title>
+  </head>
+  <body>
+    <!-- Inicio del navbar -->
+    <nav>
+      <div class="brand_image">
+        <img src="image/logoC.png" alt="" />
+        <h2>d0</h2>
+      </div>
+      <div class="nav_donate">
+        <button class="btn_line">Apóyanos</button>
+      </div>
+    </nav>
+
+    <!-- encabezado y contenido -->
+    <main>
+      <section class="content_title">
+        <h2>Reporte de abuso</h2>
+        <h4>Informar el enlace sospechoso</h4>
+      </section>
+
+      <section class="reportUrl">
+        <form class="url__report">
+          <input
+            class="inputsForm"
+            type="text"
+            placeholder="Proporcione un enlace sospechoso"
+          />
+        </form>
+      </section>
+    </main>
+    <section>
+      <form class="option">
+        <div>
+          <input type="radio" name="num" id="op1" checked />
+          <label for="op1">Software malicioso</label>
+        </div>
+        <div>
+          <input type="radio" name="num" id="op2" />
+          <label for="op2">Software espía</label>
+        </div>
+        <div>
+          <input type="radio" name="num" id="op3" />
+          <label for="op3">Correo no deseado</label>
+        </div>
+        <div>
+          <input type="radio" name="num" id="op4" />
+          <label for="op4">Suplantación de identidad</label>
+        </div>
+        <div>
+          <input type="radio" name="num" id="op5" />
+          <label for="op5">Pharming</label>
+        </div>
+        <div>
+          <input type="radio" name="num" id="op6" />
+          <label for="op6">Malicioso</label>
+        </div>
+        <div>
+          <input type="radio" name="num" id="op7" />
+          <label for="op7">Suspicaz</label>
+        </div>
+        <div>
+          <input type="radio" name="num" id="op8" />
+          <label for="op8">Pornografía</label>
+        </div>
+        <div>
+          <input type="radio" name="num" id="op9" />
+          <label for="op9">Otro</label>
+        </div>
+        <div class="option__btn">
+          <input
+            class="btn_line"
+            type="button"
+            onclick="location.href='reportSuccessful.html';"
+            value="Reportar"
+          />
+        </div>
+      </form>
+    </section>
+    <footer>
+      <div class="footer__info">
+        <a href="termino.html">Términos de uso</a>
+        <a href="privacidad.html">Privacidad</a>
+        <a href="report.html">Reporte de abuso</a>
+      </div>
+      <div class="footer__copy">
+        <p>v 1.0.0</p>
+        <div class="footer__copy-by">
+          <p>By</p>
+          <a href="https://www.linkedin.com/in/jose-caicedo/"
+            ><img src="image/JC_negro.png" alt="logo del desarrollador"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
